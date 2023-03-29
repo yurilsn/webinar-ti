@@ -1,0 +1,176 @@
+/* Todas as TAGs */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Apresentação do evento */
+
+#sobre_o_evento{
+  flex: 1.4;
+  padding: 2rem 4rem;
+}
+
+#logo{
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+#logo img{
+  height: 50px;
+  margin-right: 0.6rem;
+}
+
+#exclusivo{
+  text-transform: uppercase;
+  color: #0075ff;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+#sobre_o_evento h2{
+  font-size: 2.4rem;
+  max-width: 500px;
+  margin-bottom: 1rem;
+}
+
+#data{
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+
+#descricao{
+  max-width: 500px;
+  margin-bottom: 1rem;
+  line-height: 1.4rem;
+}
+
+#sobre_o_evento h4{
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+#palestrante_evento{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card_palestrante{
+  border: 2px solid #ccc;
+  padding: 1rem;
+  width: 175px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.card_palestrante img{
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.card_palestrante .nome_palestrante{
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.card_palestrante .profissao_palestrante{
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+
+/* Formulário */
+
+#formulario_do_evento{
+  flex: 1;
+  background-image: url("../img/pattern.png");
+  background-size: cover;
+  color: #fff;
+}
+
+#interior_formulario{
+  margin: 3rem;
+  padding: 3rem;
+  border: 2px solid #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#interior_formulario h3{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#interior_formulario p{
+  margin-bottom: 1rem;
+}
+
+#formulario_registro{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+#name_container{
+  display: flex;
+  gap: 0.5rem;
+}
+
+#formulario_registro input{
+  padding: 0.8rem 0.6rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#formulario_registro input[type="submit"]{
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+  
+}
+
+#formulario_registro input[type="submit"]:hover{
+  background-color: #fff;
+  color: #0075ff;
+}
+
+#beneficios{
+  text-align: left;
+  align-self: start;
+}
+
+#beneficios h4{
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+#beneficios ul{
+  list-style-position: inside;
+}
+
+#beneficios li{
+  margin-bottom: 0.5rem;
+}
+
+/*  */
